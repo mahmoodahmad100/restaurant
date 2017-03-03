@@ -5,11 +5,10 @@
 
 .boot  i{color: #fff; margin-top: 20px;}
 .boot .first{background: #bddef8; height:680px;}
-.boot .first h3 span{font-size: 50px;}
+.boot .first h3 sup{font-size: smaller; font-weight:normal;}
 .boot .first h2,
 .boot .seconed h2{color:#252525; font-size: 25px; font-weight: bold;}
-.boot .first h3 span{position: absolute;left: 27%; top: 20%; font-size: 60px;font-family: 'Roboto Condensed', sans-serif;
-}
+
 .boot .first h3,
 .boot .seconed h3
 {
@@ -41,13 +40,12 @@
 }
 @media (max-width:768px)
 {
-	.boot .third{top: 145%;}
-	.boot .first h3 span{left: 23%;}
+	.boot .third{position:static;background-color:#7cc0f2;}
+	.boot .third button{width: 250px;}
 
 }
 @media(min-width:768px) and (max-width:991px)
 {
-	.boot .first h3 span{left: 14%;}
 	.boot .third button{width: 300px;}
 }
 @media(min-width:992px) and (max-width:1199px){.boot .first h3 span{left: 22%;}}
